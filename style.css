@@ -1,0 +1,77 @@
+body,html{
+    background-color: yellowgreen;
+    font-family: 'Irish Grover', cursive;
+    font-size: 1.2rem;
+    color: darkblue;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+span{
+    color: red;
+    font-size: 1.2em;
+}
+
+.input-box{
+    text-align: center;
+    margin: auto;
+}
+
+#additem{
+    width: 50%;
+    padding: 10px 20px;
+    padding-right: 40px;
+    border-radius: 15px;
+    border: none
+}
+
+#addbutton{
+    position: relative;
+    right: 35px;
+    top: 2px;
+    border: none;
+    background-color: white;
+    font-size: 1.2rem;
+    color: darkslategrey;
+    padding: 0;
+}
+
+#additem:focus{
+    outline: none;
+    box-shadow: 2px 2px 5px darkblue;
+}
+
+button:hover{
+    color:darkblue;
+    text-shadow: 1px 1px 1px darkblue;
+    cursor: pointer;
+}
+
+ul li{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 10px;
+    list-style-type: none;
+    text-align: start;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 600px) {
+    ul li{
+        font-size: 0.6em;
+        margin-left: 0;
+    }
+}
